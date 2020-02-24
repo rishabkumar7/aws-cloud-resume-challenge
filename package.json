@@ -1,0 +1,22 @@
+{
+  "name": "personalportfolio_v3",
+  "version": "1.0.0",
+  "description": "Responsive portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishabkumar7/personalportfolio_v3.git"
+  },
+  "author": "Rishab Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rishabkumar7/personalportfolio_v3/issues"
+  },
+  "homepage": "https://github.com/rishabkumar7/personalportfolio_v3#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
