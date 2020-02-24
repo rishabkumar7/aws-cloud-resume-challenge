@@ -40,14 +40,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #3a256f;
+    background: #24122e;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #442b82;
+    background: #331940;
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -55,16 +55,18 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("../img/portrait.jpg");
+      background: url("../img/Animoji-removebg.png") no-repeat;
+      background-size: cover;
+      background-clip: border-box;
       border-radius: 50%;
-      border: solid 3px #eece1a; }
+      border: solid 3px #0cca98; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #eece1a; }
+      color: #0cca98; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -76,7 +78,7 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #eece1a; }
+      color: #0cca98; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -94,12 +96,25 @@
   box-sizing: border-box; }
 
 body {
-  background: #442b82;
+  background: #331940;
   color: #fff;
   height: 100%;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
+  body#bg-img {
+    background: url(../img/background.jpg);
+    background-attachment: fixed;
+    background-size: cover; }
+    body#bg-img:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background: rgba(51, 25, 64, 0.9); }
 
 h1,
 h2,
@@ -115,7 +130,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(72, 46, 138, 0.5); }
+    background: rgba(57, 28, 71, 0.5); }
 
 a {
   color: #fff;
@@ -127,7 +142,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #eece1a; }
+  color: #0cca98; }
 
 main {
   padding: 4rem;
@@ -138,7 +153,7 @@ main {
       padding: 0.4rem;
       transition: all 0.5s ease-out; }
       main .icons a:hover {
-        color: #eece1a; }
+        color: #0cca98; }
   main#home {
     overflow: hidden; }
     main#home h1 {
@@ -153,7 +168,7 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #eece1a 3px solid; }
+    border: #0cca98 3px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
@@ -164,9 +179,9 @@ main {
   .about-info .job-3 {
     grid-area: job3; }
   .about-info .job {
-    background: #4e3195;
+    background: #422052;
     padding: 0.5rem;
-    border-bottom: #eece1a 5px solid; }
+    border-bottom: #0cca98 5px solid; }
 
 .projects {
   display: grid;
@@ -177,7 +192,7 @@ main {
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #eece1a;
+      border-color: #0cca98;
       transition: all 0.5s ease-out; }
 
 .boxes {
@@ -194,7 +209,7 @@ main {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #eece1a;
+      background: #0cca98;
       color: #000; }
       .boxes div:hover span {
         color: #000; }
@@ -205,7 +220,7 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #eece1a;
+    background: #0cca98;
     color: #000; }
 
 .btn-dark {
@@ -213,13 +228,13 @@ main {
   color: #fff; }
 
 .btn-light {
-  background: #cdc1eb;
+  background: #b888d0;
   color: #333; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #301e5c;
+  background: #160b1b;
   color: #fff;
   height: 60px; }
 
@@ -254,7 +269,7 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/portrait_small.jpg");
+      background: url("../img/profile.jpg");
       width: 150px;
       height: 150px; }
   .about-info {

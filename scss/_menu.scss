@@ -90,7 +90,9 @@
     .portrait {
       width: 250px;
       height: 250px;
-      background: url("../img/portrait.jpg");
+      background: url("../img/Animoji-removebg.png") no-repeat;
+      background-size: cover;
+      background-clip: border-box;
       border-radius: 50%;
       border: solid 3px $secondary-color;
     }
