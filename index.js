@@ -1,18 +1,18 @@
 $(document).ready(function (e) {
     $win = $(window);
-    $navbar = $('header');
+    $navbar = $('#header');
     $toggle = $('.toggle-button');
     var width = $navbar.width();
     toggle_onclick($win, $navbar, width);
 
-    //resize event
-    $win.resize(funtcion(){
-        $toggle_onclick($win, $navbar, width);
+    // resize event
+    $win.resize(function () {
+        toggle_onclick($win, $navbar, width);
     });
 
     $toggle.click(function (e) {
-        $navbar.$toggleClass("toggle-left");
-    });
+        $navbar.toggleClass("toggle-left");
+    })
 
 });
 
