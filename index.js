@@ -28,7 +28,8 @@ function toggle_onclick($win, $navbar, width) {
 var typed = new Typed('#typed', {
     strings: [
         'Freelancer',
-        'Web Developer'
+        'Web Developer',
+        'Cloud Architect'
     ],
     typeSpeed: 50,
     backSpeed: 50,
@@ -38,5 +39,16 @@ var typed = new Typed('#typed', {
 var typed_2 = new Typewriter('#typed_2', {
     strings: ['Freelancer', 'Web Developer'],
     autoStart: true,
+});
+
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
 });
 
