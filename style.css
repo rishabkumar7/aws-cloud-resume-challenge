@@ -162,7 +162,7 @@ body {
 }
 
 
-.dev-icons .list-inline-item i:hover{
+.dev-icons .list-inline-item :hover{
   color:#16CAFF;
   transform: scale(1.2)
 }
