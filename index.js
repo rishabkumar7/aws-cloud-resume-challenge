@@ -36,12 +36,6 @@ var typed = new Typed('#typed', {
     loop: true
 });
 
-var typed_2 = new Typewriter('#typed_2', {
-    strings: ['Freelancer', 'Web Developer'],
-    autoStart: true,
-});
-
-
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
