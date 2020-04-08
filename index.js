@@ -16,7 +16,6 @@ $(document).ready(function (e) {
 
 });
 
-
 function toggle_onclick($win, $navbar, width) {
     if ($win.width() <= 768) {
         $navbar.css({ left: `-${width}px` });
@@ -27,8 +26,19 @@ function toggle_onclick($win, $navbar, width) {
 
 var typed = new Typed('#typed', {
     strings: [
-        'Freelancer',
         'Web Developer',
+        'Freelancer',
+        'Cloud Architect'
+    ],
+    typeSpeed: 50,
+    backSpeed: 50,
+    loop: true
+});
+
+var typed_2 = new Typed('#typed_2', {
+    strings: [
+        'Web Developer',
+        'Freelancer',
         'Cloud Architect'
     ],
     typeSpeed: 50,
@@ -45,4 +55,3 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
-
