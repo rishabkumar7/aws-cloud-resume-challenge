@@ -144,6 +144,7 @@ body{
 }
 /* #site-main */
 
+
 /*icons*/
 .social-icons a{
     display:inline-block;height:3.5rem;
@@ -157,61 +158,67 @@ body{
     margin-right:1rem
   }
   
-  
   .social-icons a:last-child{
     margin-right:0
   }
-  
   
   .social-icons a:hover{
     background-color:var(--color-blue);
     transform: scale(1.2)
   }
   
-  
   .social-icons a:hover i {
     transform: scale(1.3);
   }
-
 
   .dev-icons {
     font-size: 5rem;
   }
   
-  .dev-icons .list-inline-item i:hover {
+  .dev-icons .list-inline-item :hover {
     color: var(--color-blue);
   }
-
   /*icons*/
 
 
+
   /*project*/
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: var(--color-blue);
+.frame {
+	text-align: center;	
+	position: relative;
+	cursor: pointer;	
+	perspective: 500px; 
 }
 
-.container:hover .overlay {
-  opacity: 1;
+.frame .details {
+	width: 90%;
+	height: 90%;	
+	padding: 5% 8%;
+	position: absolute;
+	content: "";
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotateY(90deg);
+	transform-origin: 50%;
+	background: var(--color-blue);	
+	opacity: 0;
+    transition: all 0.4s ease-in;
+    color: var(--color-white);
+    font-family: var(--font-ram);
 }
 
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+.frame:hover .details {
+	transform: translate(-50%, -50%) rotateY(0deg);
+	opacity: 1;
 }
-  /*project*/
+
+
+/*project icons- github and live site*/
+.giti, .eye{
+    font-size: 3rem;
+    color: var(--color-white);
+}
+
+.eye :hover{
+    color: var(--color-white);
+}
