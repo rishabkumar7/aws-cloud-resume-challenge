@@ -7,7 +7,7 @@ What is Cloud Resume Challenge? - The Cloud Resume Challenge is a multiple-step 
 
 ![Architecture Diagram](/img/AWS-Architecture-Cloud-resume-challenge.png)
 
-Tech-stack:
+**Tech-stack**:
 
 - S3
 - AWS CloudFront
@@ -15,3 +15,9 @@ Tech-stack:
 - AWS Lambda
 - Dynamo DB
 - GitHub Actions
+
+## YouTube Series
+
+Part One - [What is the Cloud Resume Challenge?](https://youtu.be/NNKzYhvqq5w)
+
+## Blog Series
