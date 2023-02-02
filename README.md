@@ -18,6 +18,7 @@ What is Cloud Resume Challenge? - The Cloud Resume Challenge is a multiple-step 
 
 ## YouTube Series
 
-Part One - [What is the Cloud Resume Challenge?](https://youtu.be/NNKzYhvqq5w)
+Part 1 - [What is the Cloud Resume Challenge?](https://youtu.be/NNKzYhvqq5w)
+Part 2 - [Setting up S3 bucket and CloudFront](https://youtu.be/P5UGhdud_ss)
 
 ## Blog Series
