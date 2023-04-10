@@ -20,6 +20,9 @@ What is Cloud Resume Challenge? - The Cloud Resume Challenge is a multiple-step 
 
 - Part 1 - [What is the Cloud Resume Challenge?](https://youtu.be/NNKzYhvqq5w)
 - Part 2 - [Setting up S3 bucket and CloudFront](https://youtu.be/P5UGhdud_ss)
+- Part 3 - [Setting up Dynamo DB and AWS Lambda Function](https://youtu.be/x5iTWZbOgww)
+- Part 4 - [Lambda and JavaScript to get viewer counter](https://youtu.be/x6TIihJSaLA)
+- Part 5 - [Setting up Git repo and CI/CD for frontend website](https://youtu.be/qFEf6iOo-4g)
 
 ## Blog Series
 - 1. [What is the Cloud Resume Challenge?](https://dev.to/aws-builders/what-is-the-cloud-resume-challenge-ma5)
