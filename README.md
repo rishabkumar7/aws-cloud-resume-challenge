@@ -17,6 +17,8 @@ What is Cloud Resume Challenge? - [The Cloud Resume Challenge](https://cloudresu
 - GitHub Actions
 - Terraform
 
+## [Live Demo 🔗](https://resume.rishab.cloud)
+
 ## YouTube Series
 
 - Part 1 - [What is the Cloud Resume Challenge?](https://youtu.be/NNKzYhvqq5w)
