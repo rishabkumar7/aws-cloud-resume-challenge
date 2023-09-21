@@ -31,4 +31,8 @@ What is Cloud Resume Challenge? - [The Cloud Resume Challenge](https://cloudresu
 
 ## Blog Series
 - 1. [What is the Cloud Resume Challenge?](https://dev.to/aws-builders/what-is-the-cloud-resume-challenge-ma5)
-- 2.
+ 
+## Author
+- Twitter: [@rishabk7](https://twitter.com/rishabk7)
+- LinkedIn: [rishabkumar7](https://linked.com/in/rishabkumar7)
+  
