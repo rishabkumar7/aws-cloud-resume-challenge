@@ -29,10 +29,10 @@ What is Cloud Resume Challenge? - [The Cloud Resume Challenge](https://cloudresu
 - Part 5 - [Setting up Git repo and CI/CD for frontend website](https://youtu.be/qFEf6iOo-4g)
 - Part 6 - [Implementing Infrastructure as Code with Terraform](https://youtu.be/rzdSuiU_TQc)
 
-## Blog Series
-- 1. [What is the Cloud Resume Challenge?](https://dev.to/aws-builders/what-is-the-cloud-resume-challenge-ma5)
  
 ## Author
-- Twitter: [@rishabk7](https://twitter.com/rishabk7)
+- Twitter: [@rishabincloud](https://twitter.com/rishabincloud)
 - LinkedIn: [rishabkumar7](https://linked.com/in/rishabkumar7)
   
+## Stars
+[![Stargazers over time](https://starchart.cc/rishabkumar7/aws-cloud-resume-challenge.svg?variant=adaptive)](https://starchart.cc/rishabkumar7/aws-cloud-resume-challenge)
